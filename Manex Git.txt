@@ -1,0 +1,55 @@
+Étapes pour Utiliser le Dossier Depuis Son Ordinateur Personnel
+
+1. Cloner le dépôt depuis GitHub :
+   - Ouvrir un terminal Git Bash sur votre ordinateur personnel.
+   - Utiliser la commande "cd" pour vous déplacer vers le répertoire souhaité.
+   - Cloner le dépôt depuis GitHub avec :
+     git clone https://github.com/Navalona007/InclusivAcademy_Projet3.git
+
+2. Accéder au dossier cloné :
+   - Utiliser la commande "cd" pour accéder au dossier cloné :
+     cd InclusivAcademy_Projet3
+
+3. Travailler sur le projet :
+   - Vous pouvez maintenant effectuer des modifications, ajouter des fichiers, etc.
+
+4. Synchroniser avec GitHub :
+   - Pour sauvegarder votre travail sur GitHub :
+     - Assurez vous que vous êtes sur la bonne branche ==> git checkout [votre_branche_sans_crochet]
+     - Utilisez "git add" pour préparer les modifications ==> "git add ." pour inclure toutes les modifications
+     - Utilisez "git commit" pour enregistrer les modifications avec un message ==> "git commit -"description de ce que vous avez modifié"
+     - Utilisez "git push" pour envoyer les modifications sur GitHub ==> git push origin [nom_de_branche_au_dessus_de_la_votre_sans_crochet]
+
+5. Mettre à jour le dossier sur votre ordinateur :
+   - Pour récupérer les modifications des autres collaborateurs :
+     git pull origin [nom_de_branche_au_dessus_de_la_votre_sans_crochet]
+
+6. Écrire les étapes de modification dans un fichier texte (.txt) :
+   - Utilisez un éditeur de texte pour créer un fichier texte.
+   - Écrivez les étapes et enregistrez les étapes de modification dans le fichier avec une extension .txt pour pouvoir choisir facilement ce qui doit rester lors du "merge conflict"
+
+7. Consultation des instructions :
+   - Vous pouvez consulter ce fichier texte chaque fois que vous avez besoin de vous rappeler des étapes pour travailler sur le projet ou synchroniser avec GitHub.
+
+Voici nos branches
+
+  remotes/origin/master
+  	remotes/origin/sub_master  
+		remotes/origin/conception
+  			remotes/origin/conception_Cohen
+  			remotes/origin/conception_Dodos
+  			remotes/origin/conception_Liantsoa
+  			remotes/origin/conception_Murielle
+  			remotes/origin/conception_Navalona007
+  		remotes/origin/developpement
+  			remotes/origin/developpement_Cohen
+  			remotes/origin/developpement_Dodos
+  			remotes/origin/developpement_Liantsoa
+  			remotes/origin/developpement_Murielle
+  			remotes/origin/developpement_Navalona007
+
+EX: Lors de la phase de conception Dodos doit s'assurer qu'il se trouve sur la branche [conception_Dodos] et push vers git push origin [conception] après modification et il doit mettre à jour sa branche en effectuant la commande  git pull origin [conception]
+
+
+
+
